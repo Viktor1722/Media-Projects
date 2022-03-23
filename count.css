@@ -1,0 +1,36 @@
+html{
+    background-image: url(fireWorks.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.comingSoon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countDown{
+    display: flex;
+    justify-content: space-around;
+}
+.day,.hour,.minute,.second{
+    font-size: 3rem;
+    margin: 20px;
+}
+
+h3{
+    margin: 30px;
+}
